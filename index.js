@@ -35,13 +35,7 @@ Do the following:
 
    HINT: no function required
 */
-let age = 23
-let birthday = true
-if (birthday = true) {
-  age = age + 1
-}
-console.log(age)
-//not sure if i did this task right
+
 
 
 
@@ -140,7 +134,7 @@ function hungryDog(weight, age){
       return weight * .04
     }
   }
-};
+}
 
 
 
@@ -200,6 +194,7 @@ function game(user, computer){
       }
     }
 }
+console.log(game('paper',computerChoice))
 
 
 
@@ -297,11 +292,11 @@ HINT - try looking up the .includes() method
 */
 
 
-function vowelCounter(/*add your code here*/) {
+//function vowelCounter(/*add your code here*/) {
   /*add your code here*/
-}
 
-.
+
+
 
 /*🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑*/
 function foo(){
