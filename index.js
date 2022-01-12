@@ -21,7 +21,9 @@ Do the following:
 */
 const votingAge = 18
 if (votingAge >= 18) {
-  console.log(true)
+  console.log(true);
+} else {
+  console.log(false);
 }
 
 
@@ -35,10 +37,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
-
+let age = 23
+let birthday = true
+if (birthday === true){
+  age = age + 1
+}
+console.log(age)
 
 
 
@@ -54,8 +58,7 @@ Do the following:
 */
 
 let year = '1999'
-year = parseInt(year)
-console.log(year)
+console.log(Number(year))
 
 /*
 Task 1d - Multiply
